@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="quiz.css">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=
+  , initial-scale=1.0">
+  <title>Create Question</title>
+</head>
+<body>
+    <main class="container">
+      <h1>Add Question</h1>
+      <form action="" >
+
+        <div>
+          <label for="">Subject</label><br>
+          <select  id="select" name="">
+              <option value="html">HTML</option>
+              <option value="css">CSS</option>
+              <option value="javascript">JAVASCRIPT</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="">Question Text</label><br>
+           <textarea name=""  id="questionArea" cols="30" rows="10" required></textarea>
+        </div>
+
+          <div id="multi-choice">
+              <label for="">Option</label><br>
+              <input class ="multi-choice" type="text" placeholder="option 1" required><br><br>
+              <input class ="multi-choice"type="text" placeholder="option 2" required><br><br>
+              <input class ="multi-choice"type="text" placeholder="option 3" required><br><br>
+              <input class ="multi-choice"type="text" placeholder="option 4" required><br><br>
+          </div>
+
+          <div>
+            <label for="">Correct Answer</label><br>
+            <input type="text"  id="correctOption"  placeholder="Enter correct Option">
+          </div>
+
+          <div><label for="">Submit Question</label><br>
+        <input type="submit">
+      </div>
+          
+      
+      </form>
+
+    </main>
+    <script src="quiz.js"></script>
+</body>
+</html>
+
